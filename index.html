@@ -2,264 +2,329 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,800;1,400&family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Grilli - Amazing & Delicious Food</title>
+  <meta name="title" content="Grilli - Amazing & Delicious Food">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
 
-    <link rel="stylesheet" href="css/aos.css">
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="style.css">
-    <title>SweetSpot</title>
-	
-	
-   <!-- aos css link  -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
 
 </head>
 
-<body> 
-	<!-- navigation starts -->
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light" id="ftco-navbar" style="background:#f9f9f9;">
-        <div class="container" id="navCon">
-            <a href="index.html" class="navbar-brand" style="color:#f99d1c;">Brothsmen Soup</a>
+<body id="top">
 
-            <div class="collpase navbar-collapse" id="ftco-nav">
-                <ul class="navbar-nav ml-auto" data-aos="zoom-in">
-                    <li class="nav-item active" id="toDisplayNone"><a href="#" class="nav-link" >Home</a></li>
-                    <li class="nav-item" id="toDisplayNone"><a href="#about" class="nav-link" >About</a></li>
-                    <li class="nav-item" ><a href="franchises.html" class="nav-link">Soups</a></li>
-                    <li class="nav-item" id="toDisplayNone"><a href="#menu" class="nav-link" class="toDisplayNone">Stuff</a></li>
-                    
-                    <li class="nav-item" id="toDisplayNone"><a href="#" class="nav-link" class="toDisplayNone" >Contact</a></li>
-					<li class="nav-item"><a href="branches.html" class="nav-link">Where to buy</a></li>
-                    
-                </ul>
-            </div>
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Grilli</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
         </div>
-    </nav>
+
+        <span class="span">
+          Soups St, Delicious City, London 9578, UK
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 8.00 am to 10.00 pm</span>
+      </div>
+
+      <a href="tel:+11234567890" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+1 123 456 7890</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@restaurant.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">soup.com</span>
+      </a>
+
+    </div>
+  </div>
 
 
-<div class="wrapup1">
-		<div class="wrapup11">
-                <div id="soups-div">
-                    <div class="soups-div11"><div class="soup-img-wrappers">
-                        <img src="soup4.png" alt="Soup Image 1">
-                    </div>
-                    
-                </div>
-</div>
-                <div  data-aos="fade-up" class="textss">
-				
-                    <h1 class="mb-4" id="headH">Wholesome </h1>
-                    <h1 class="mb-4" id="headH">Ready-to-eat </h1>
-                    <h1 class="mb-4" id="headH"> Liquid Soups. </h1>
 
-<div class="color1">
-                    <span class="subheading" >Mind Blowingly Tasty with real <br>vegetables.</span>
-					
-					
-					<button class="tocontactbtn">Contact us</button></div>
-                </div>
-            </div></div>
 
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo" style="margin-left:20px;font-weight:600;font-size:30px;">
+	  Soups
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Menus</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Our Chefs</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Restaurant St, Delicious City, <br>
+            London 9578, UK
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+          <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">booking@grilli.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+            +88-123-123456
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Find A Table</span>
+
+        <span class="text text-2" aria-hidden="true">Find A Table</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
 
 
 
 <style>
-.wrapup1{
-background:#f9f9f9;
-width:100%;
-height:100vh;
-overflow:hidden;
-display:flex;
-align-items:center;
-justify-content:center;
-padding:0; font-family: 'Open Sans', sans-serif;
-}
-
-.wrapup11{
-width:100%;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-margin-top:-100px;
-}
-
-#soups-div{
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
-	align-items:center;
-	margin-top:270px;
-	margin-left:0;
-}
-.soups-div11{
-	display:flex;
-	margin:0;
-}
-.soup-img-wrappers {
-    width: 900px;
-	height:700px;
-	
-}
-
-.soup-img-wrappers img {
-    max-width: 100%;
-	height:auto;
-  margin-top:-20px;
-	
+  
+  .slider-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)); 
     
-}
-.textss{
-	background-color:#98a45e;
-	background-image:url('https://zoup.com/wp-content/uploads/2020/11/greenladel_banner.png');
-	background-repeat:repeat;
-	width:700px;
-	height:650px;
-	text-align:center;
-	margin-top:160px;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	flex-direction:column;
-}
-
-.textss h1 {
-    margin-bottom: 10px;
-	font-weight:700;
-	color:#ffffff;
-	font-size:28px;
-	
-}
-.color1{
-	padding:20px;
-  background:#fff;
-  margin-top:30px;
-display:flex;
-flex-direction:column;
-}
-    .subheading {
-  font-size: 20px;
-  color: #3d3d3d;
-  font-weight: bold;
-  margin-bottom: 0;
-  line-height: 1.3;
-  letter-spacing:1px;
-  text-align:left;
   }
-
-.tocontactbtn{
-	padding:10px 30px;
-	color:#fff;
-	background:#40281c;
-	cursor:pointer;
-	border:none;
-	outline:none;
-	margin-top:20px;
-	width:160px;
-}
 
 </style>
 
+  <main>
+    <article>
 
+      <!-- 
+        - #HERO
+      -->
 
+      <section class="hero text-center" aria-label="home" id="home">
 
+        <ul class="hero-slider" data-hero-slider>
 
+          <li class="slider-item active" data-hero-slider-item>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- navigation ends -->
-  <!-- slider  section start -->
-<!-- slider section start 
-<section class="home-slider owl-carousel js-fullheight">
-    <div class="slider-item js-fullheight" style="background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url(background.png);">
-        <div class="overlay"></div>
-
-        <div class="container">
-            <div class="row" data-scrollax-parent="true">
-                <div id="soups-div" style="display: flex; justify-content: space-between; align-items: center;">
-                    <div class="soup-img-wrappers">
-                        <img src="soup1.jpg" alt="Soup Image 1">
-                    </div>
-                    <div class="soup-img-wrappers">
-                        <img src="soup2.jpg" alt="Soup Image 2">
-                    </div>
-                    <div class="soup-img-wrappers">
-                        <img src="soup3.jpg" alt="Soup Image 3">
-                    </div>
-                </div>
-
-                <div class="col-md-12 col-sm-12 text-center ftco-animate" data-aos="fade-up">
-                    <h1 class="mb-4" id="headH">Wholesome </h1>
-                    <h1 class="mb-4" id="headH">Ready-to-eat </h1>
-                    <h1 class="mb-4" id="headH"> Liquid Soups. </h1>
-
-                    <span class="subheading">Mind Blowingly Tasty <br>with real vegetables.</span>
-                </div>
+            <div class="slider-bg">
+              <img src="img1.jpg" width="1880" height="950" alt="" class="img-cover">
             </div>
-        </div>
-    </div>
-</section>
+
+            <p class="label-2 section-subtitle slider-reveal">Tradational & Hygine</p>
+
+            <h1 class="display-1 hero-title slider-reveal" style="font-size:50px; line-height:1.4;">
+              Wholesome<br>
+Ready-to-eat<br>
+Liquid Soups.
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Mind Blowingly Tasty with real vegetables.
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="img2.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">delightful experience</p>
+
+        <h1 class="display-1 hero-title slider-reveal" style="font-size:50px; line-height:1.4;">
+              Wholesome<br>
+Ready-to-eat<br>
+Liquid Soups.
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Mind Blowingly Tasty with real vegetables.
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+         
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#" class="hero-btn has-after">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Book A Table</span>
+        </a>
+
+      </section>
 
 
-  
 
 
-    <!-- scripts -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery-migrate-3.0.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/bootstrap-datepicker.js"></script>
-    <script src="js/jquery.timepicker.min.js"></script>
-    <script src="js/scrollax.min.js"></script>
-    <script src="main.js"></script>
-	
-<!-- aos js link  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
-<script>
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
 
-   AOS.init({
-      duration:800,
-      delay:300
-   });
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-</script>
-
-	
 </body>
 
 </html>
