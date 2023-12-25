@@ -1,330 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 
-    - primary meta tags
-  -->
-  <title>Grilli - Amazing & Delicious Food</title>
-  <meta name="title" content="Grilli - Amazing & Delicious Food">
-  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
-
-  <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
-  <!-- 
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
-
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!-- 
-    - preload images
-  -->
-  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+  <title>Your Website Title</title>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	 <!-- aos css link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
 </head>
-
-<body id="top">
-
-  <!-- 
-    - #PRELOADER
-  -->
-
-  <div class="preload" data-preaload>
-    <div class="circle"></div>
-    <p class="text">Grilli</p>
-  </div>
+<body>
 
 
+<div class="myHeader" >
+	<h1 data-aos="zoom-in">BROTHSMEN</h1>
+	<h3 data-aos="zoom-in">wholesome soups</h3>
+</div>
 
-
-
-  <!-- 
-    - #TOP BAR
-  -->
-
-  <div class="topbar">
-    <div class="container">
-
-      <address class="topbar-item">
-        <div class="icon">
-          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
-        </div>
-
-        <span class="span">
-          Soups St, Delicious City, London 9578, UK
-        </span>
-      </address>
-
-      <div class="separator"></div>
-
-      <div class="topbar-item item-2">
-        <div class="icon">
-          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-        </div>
-
-        <span class="span">Daily : 8.00 am to 10.00 pm</span>
-      </div>
-
-      <a href="tel:+11234567890" class="topbar-item link">
-        <div class="icon">
-          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
-        </div>
-
-        <span class="span">+1 123 456 7890</span>
-      </a>
-
-      <div class="separator"></div>
-
-      <a href="mailto:booking@restaurant.com" class="topbar-item link">
-        <div class="icon">
-          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
-        </div>
-
-        <span class="span">soup.com</span>
-      </a>
-
-    </div>
-  </div>
-
-
-
-
-
-  <!-- 
-    - #HEADER
-  -->
-
-  <header class="header" data-header>
-    <div class="container">
-
-      <a href="#" class="logo" style="margin-left:20px;font-weight:600;font-size:30px;">
-	  Soups
-      </a>
-
-      <nav class="navbar" data-navbar>
-
-        <button class="close-btn" aria-label="close menu" data-nav-toggler>
-          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-        </button>
-
-        <a href="#" class="logo">
-          <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
-        </a>
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <a href="#home" class="navbar-link hover-underline active">
-              <div class="separator"></div>
-
-              <span class="span">Home</span>
-            </a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#menu" class="navbar-link hover-underline">
-              <div class="separator"></div>
-
-              <span class="span">Menus</span>
-            </a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#about" class="navbar-link hover-underline">
-              <div class="separator"></div>
-
-              <span class="span">About Us</span>
-            </a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#" class="navbar-link hover-underline">
-              <div class="separator"></div>
-
-              <span class="span">Our Chefs</span>
-            </a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#" class="navbar-link hover-underline">
-              <div class="separator"></div>
-
-              <span class="span">Contact</span>
-            </a>
-          </li>
-
-        </ul>
-
-        <div class="text-center">
-          <p class="headline-1 navbar-title">Visit Us</p>
-
-          <address class="body-4">
-            Restaurant St, Delicious City, <br>
-            London 9578, UK
-          </address>
-
-          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
-
-          <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">booking@grilli.com</a>
-
-          <div class="separator"></div>
-
-          <p class="contact-label">Booking Request</p>
-
-          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
-            +88-123-123456
-          </a>
-        </div>
-
-      </nav>
-
-      <a href="#" class="btn btn-secondary">
-        <span class="text text-1">Find A Table</span>
-
-        <span class="text text-2" aria-hidden="true">Find A Table</span>
-      </a>
-
-      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-        <span class="line line-1"></span>
-        <span class="line line-2"></span>
-        <span class="line line-3"></span>
-      </button>
-
-      <div class="overlay" data-nav-toggler data-overlay></div>
-
-    </div>
-  </header>
-
-
-
-<style>
+<nav class="navbar navbar-expand-lg navbar-light ">
+  <div class="container">
   
-  .slider-bg::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)); 
+    <a class="navbar-brand" href="#"></a>
     
-  }
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-</style>
+    <!-- Right side with links -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav" >
+      <ul class="navbar-nav" >
+        <li class="nav-item" >
+          <a class="nav-link" href="#about" style="color:#120e05;" data-aos="zoom-in">Our Soup Story</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#soups" style="color:#120e05;" data-aos="zoom-in">Our Soups</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#whereToBuy" style="color:#120e05;" data-aos="zoom-in">Where to Buy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact" style="color:#120e05;" data-aos="zoom-in">Get in Touch</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-  <main>
-    <article>
+<div class="portionDiv">
+	<div class="imagewrapper">
+		<div class="imagewrap"><img src="assets/img1.jpg" data-aos="fade-right" style="z-index:5;"></div>
+		<div class="imagewrap"><img src="assets/img2.jpg" data-aos="zoom-in" style="z-index:10;"></div>
+		<div class="imagewrap"><img src="assets/img3.jpg" data-aos="fade-left" style="z-index:5;"></div>
+	</div>
+	<div class="texts">
+		<h1 data-aos="zoom-in"> Wholesome <br>
+        Ready-to-eat<br>
+        Liquid Soups</h1>
+		
+		<p>Mind Blowingly Tasty with real vegetables.</p>
+	</div>
+</div>
 
-      <!-- 
-        - #HERO
-      -->
-
-      <section class="hero text-center" aria-label="home" id="home">
-
-        <ul class="hero-slider" data-hero-slider>
-
-          <li class="slider-item active" data-hero-slider-item>
-
-            <div class="slider-bg">
-              <img src="img1.jpg" width="1880" height="950" alt="" class="img-cover">
-            </div>
-
-            <p class="label-2 section-subtitle slider-reveal">Tradational & Hygine</p>
-
-            <h1 class="display-1 hero-title slider-reveal" style="font-size:50px; line-height:1.4;">
-              Wholesome<br>
-Ready-to-eat<br>
-Liquid Soups.
-            </h1>
-
-            <p class="body-2 hero-text slider-reveal">
-              Mind Blowingly Tasty with real vegetables.
-            </p>
-
-            <a href="#" class="btn btn-primary slider-reveal">
-              <span class="text text-1">View Our Menu</span>
-
-              <span class="text text-2" aria-hidden="true">View Our Menu</span>
-            </a>
-
-          </li>
-
-          <li class="slider-item" data-hero-slider-item>
-
-            <div class="slider-bg">
-              <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
-            </div>
-
-            <p class="label-2 section-subtitle slider-reveal">delightful experience</p>
-
-        <h1 class="display-1 hero-title slider-reveal" style="font-size:50px; line-height:1.4;">
-              Wholesome<br>
-Ready-to-eat<br>
-Liquid Soups.
-            </h1>
-
-            <p class="body-2 hero-text slider-reveal">
-              Mind Blowingly Tasty with real vegetables.
-            </p>
-
-            <a href="#" class="btn btn-primary slider-reveal">
-              <span class="text text-1">View Our Menu</span>
-
-              <span class="text text-2" aria-hidden="true">View Our Menu</span>
-            </a>
-
-          </li>
-
-         
-        </ul>
-
-        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
-          <ion-icon name="chevron-back"></ion-icon>
-        </button>
-
-        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
-          <ion-icon name="chevron-forward"></ion-icon>
-        </button>
-
-        <a href="#" class="hero-btn has-after">
-          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
-
-          <span class="label-2 text-center span">Book A Table</span>
-        </a>
-
-      </section>
+<hr>
 
 
 
 
+<section class="about" id="about">
+		<center><h1 data-aos="zoom-in">Our Soup Story</h1></center>
+		<p data-aos="zoom-in">
+		<span class="tobold" >Welcome to the world of post-powder soups. </span><br>
+		<br>
+		Let’s start with a fact. Soups are meant to be liquids. Warm, slurpy, broth liquids that are just delicious! Unique in the way that it’s the only food in the world that satisfies your tummy and your soul! Somewhere along the way, soups changed from liquids to powder, becoming unnatural and tasteless. 
+		<br>
+		We want to change that. That’s why we’ve launched Brothsmen - liquid soups with real vegetables - the way soups should be enjoyed! 
+		<br><br>
+		<span class="tobold">The Time Factor </span>
+		<br><br>
+		We believe that time is precious, and an awful lot of it goes into putting together meals. Brothsmen was born to give people more options to enjoy healthy, hearty and nutritious food  without having to spend time making it themselves. We wanted to make soup that looked like soup (liquid!),tasted out of the world, and would be available in a convenient, ready to eat pack, so you could pour, heat and eat! 
+		<br><br>
+		<span class="tobold">Brothsmen soups balance deliciousness in taste, with wholesome ingredients, minus the artificial preservatives. Revolutionary retort packaging preserves the goodness of our soups for an extended shelf life of 9 months, without any need for refrigeration. </span>
+		<br><br>
+		We can’t tick off all the items on your to-do list, but at least now you don't have to worry about making soups anymore! 
 
-  <!-- 
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
 
-  <!-- 
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+		</p>
+</section>
+
+
+<hr>
+
+
+
+<section class="soups" id="soups">
+		<center><h1 class="specialh1" data-aos="zoom-in">Our Soups</h1></center>
+		
+		
+		<p data-aos="zoom-in">If you love wholesome, natural and a whole lot of goodness-packed soups, then there’s nothing better than Brothsmen soups. Super tasty and super convenient. Open, pour, heat and eat. </p>
+
+
+		<div class="items">
+			
+			<div class="items-wrap">
+				<div class="item-image"><img src="assets/item3.png" data-aos="zoom-in"></div>
+				<div class="item-text" data-aos="zoom-in">
+				<h1>Creamy Mushroom Soup </h1>
+				<p>Farm fresh mushrooms, caramelised and slow cooked with onion, garlic and thyme, blended with a dollop of cream to give you a deliciously velvety soup. Enjoy the flavours of earthy, wholesome ingredients and real mushrooms in every bite. Pair it with garlic bread and enjoy a yummy meal! 100% vegetarian.</p>
+				</div>
+			</div>
+			
+			
+			<div class="items-wrap">
+				<div class="item-image"><img src="assets/item2.png" data-aos="zoom-in"></div>
+				<div class="item-text" data-aos="zoom-in">
+				<h1>Classic Tomato & Basil Soup</h1>
+				<p>This classic favourite is made from plump tomatoes, fresh basil, sauteed garlic and cream, blended together in the goodness of olive oil. Tangy and flavourful, this hearty comfort soup comes with an Italian twist. Add toasted croutons and you’ve got yourself a delicious meal! 100% vegetarian.</p>
+				</div>
+			</div>
+			
+			
+			<div class="items-wrap">
+				<div class="item-image"><img src="assets/item1.png" data-aos="zoom-in"></div>
+				<div class="item-text" data-aos="zoom-in">
+				<h1>Tom Kha Soup </h1>
+				<p>Made with fresh Thai paste, carrots, baby corn and mushroom, aromatic lemon grass, Kaffir lime, galangal and Bird’s eye chilli. Topped with creamy coconut milk, this wholesome soup brings the very best of Thai flavours in every spoonful. Add in cooked noodles and you’ve got yourself a delicious meal! 100% vegetarian.</p>
+				</div>
+			</div>
+		
+		</div>
+
+</section>
+
+
+<hr>
+
+
+
+
+
+<section class="good-stuff">
+		<center><h1 class="specialh1" data-aos="zoom-in">Only the good stuff </h1></center>
+		
+		
+		<div class="good-stuff-wrap">
+			<div class="good-stuff-image"><img src="assets/soup-img.jpg"></div>
+			<div class="good-stuff-text">
+			<ul>
+				<li>
+					<p>Ready to eat LIQUID soups - super convenient </p>
+					<img src="assets/tick.png" data-aos="zoom-in">
+				</li>
+				<li>
+					<p>Wholesome fresh ingredients only </p>
+					<img src="assets/tick.png" data-aos="zoom-in">
+				</li>
+				<li>
+					<p>Zero added colours or preservatives </p>
+					<img src="assets/tick.png" data-aos="zoom-in">
+				</li>
+				<li>
+					<p>Zero Trans fat </p>
+					<img src="assets/tick.png" data-aos="zoom-in">
+				</li>
+				<li>
+					<p>No refrigeration required - retort packaging keeps soups fresh for a long time</p>
+					<img src="assets/tick.png" data-aos="zoom-in">
+				</li>
+			</ul>
+			
+			</div>
+		</div>
+		
+</section>
+
+
+<hr>
+
+ 
+
+<section class="buy" id="whereToBuy" data-aos="zoom-in">
+		<center><h1>Where to buy Brothsmen</h1></center>
+		
+		
+		<div class="buy-wrap">
+			<p>You can grab your Brothsmen soup on </p>
+			
+			<div class="imagesBuy">
+				<img src="https://cdn.zeptonow.com/web-static-assets-prod/artifacts/6.19.0/images/logo.svg" data-aos="zoom-in"> | 
+				<img src="assets/blinkit.png" data-aos="zoom-in">
+			</div>
+			
+		</div>
+		
+</section>
+
+
+
+<footer class="footer" id="contact">
+	
+	<div class="footer-part-1">
+		<h2>If you have any feedback for us, feel free to drop us a line at  <br> <span>customer@brothsmen.com </span></h2>
+		<h2>For business enquiries, write to us at <br> <span>business@brothsmen.com </span></h2>
+		
+		
+			<p style="color:#ccc;" ><a >Contact Us</a><a>Terms and Conditions</a><a>Privacy Policy</a></p>
+
+		</div>
+	
+	
+	<div class="footer-line"></div>
+	
+	
+	<div class="footer-part-2">
+		<h2>Follow us on Instagram <br> <i class="fa fa-instagram" aria-hidden="true"></i></h2>
+		<p style="color:#ccc;">© 2023 Brothsmen. All Rights Reserved</p>
+	</div>
+	
+
+</footer>
+
+
+
+
+<!-- aos js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+
+   AOS.init({
+      duration:800,
+      delay:300
+   });
+
+</script>
+
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 </body>
-
 </html>
