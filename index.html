@@ -131,11 +131,25 @@ position: sticky !important;
 	
 	
 	
+	
 	<div class="c-m4 c-m4-soups" >
-        <div class="c-m4__sticky">
+			
+				
+	<div class="c-m3" style="width:100%; background:transparent;">
+        <div class="c-m3__container">
+            <h2 class="c-m3__heading">Our Soups</h2>
+            <div class="c-linebreak-red"></div>
+            
+			
+			
+        </div>
+    </div>
+	    
+    <div class="c-m4__sticky">
             <div data-w-id="8f049488-7c81-fe74-00b8-eecc80ba379d" class="c-m4__sticky-wrap">
-                <div class="c-m4__container sticky">
-                    <div class="c-m4__copy-wrap">
+                <div class="c-m4__container sticky c-m4__container-yo-top">
+	
+	<div class="c-m4__copy-wrap">
                         <div style="display:block" class="c-m4__copy c-m4__copy-1">
                             <h1 class="c-m4__title">Creamy Mushroom Soup</h1>
                             <div class="c-linebreak-red"></div>
@@ -205,6 +219,19 @@ position: sticky !important;
 
 
 <div  class="c-m2 c-m4-soups-ro-display">
+
+	<div class="c-m3">
+        <div class="c-m3__container">
+            <h2 class="c-m3__heading">Our Soups</h2>
+            <div class="c-linebreak-red"></div>
+            
+			
+			
+        </div>
+    </div>
+
+
+
         <div class="c-m2__container" style="width: 90%; margin-left:20px; margin-top:60px;">
   <div class="c-m2__intro" style="width: 90%;">
     <h2 class="c-m2__title c-m2__titlesss" style="width: 90%;">Creamy Mushroom Soup</h2>
@@ -465,10 +492,14 @@ position: sticky !important;
 	
 	<style>
 	
-	
+	.c-m4__container-yo-top{
+		margin-top:-70px;
+	}
      @media (max-width: 1440px) {
 					
-	
+		.c-m4__container-yo-top{
+		margin-top:-120px;
+	}	
 					.retailer-logo11{
 					margin-left:395px;
 				}
@@ -516,7 +547,9 @@ position: sticky !important;
 
 	
      @media (max-width: 1280px) {
-					
+				.c-m4__container-yo-top{
+		margin-top:-100px;
+	}	
 	
 					.retailer-logo11{
 					margin-left:340px;
@@ -801,7 +834,10 @@ position: sticky !important;
 			
 
 			@media (max-width: 768px) {
-					.c-m2__titlesss{
+	.c-m4__container-yo-top{
+		margin-top:-50px;
+	}					
+				.c-m2__titlesss{
 						font-size:30px;
 					}
 					.c-m4__imagesss{
@@ -1009,11 +1045,34 @@ position: sticky !important;
 					
 							
 					
-					
-					
+	
 
 
                     @media (max-width: 390px) {
+					
+					
+
+.c-m1__container {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 50px;
+	height:100vh;
+
+}
+
+					.down-button-wrapper{
+				display:block;
+				width: 47px;
+				height: 47px;
+				position: absolute;
+				bottom: 80px;
+				left: 45.5%;
+				right: 50%;
+			}
+			
+			.c-m2__titlesss{
+				padding-top:50px;
+			}
 					.c-m4-soups{
 						display:none;
 					}
@@ -1078,13 +1137,16 @@ position: sticky !important;
 				
 				
 				
-				.heading-1-big{
+			.heading-1-big{
 					margin-left:10px;
 					font-size:30px;
 					text-align:center;
+					line-height:1.5;
+					padding-bottom:5px;
+					padding-top:60px;
 				
 				}
-				.div-block-7{
+					.div-block-7{
 					width:339px;
 					margin-left:-24px;
 					margin-top:-35px;
@@ -1093,8 +1155,7 @@ position: sticky !important;
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	margin-top:120px;
-	
+	margin-top:40px;
 	
 }
 .imagewrapper .imagewrap{
@@ -1113,7 +1174,9 @@ position: sticky !important;
 		margin-top:-15px;
 		margin-left:-10px;
 	}
-	
+	.imagewrapper1{
+						display:none;
+					}
 				
                     }
 </style>
